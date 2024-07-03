@@ -6,13 +6,6 @@
     },
     {
       "path": "./tsconfig.app.json"
-    },
-    {
-      "compilerOptions": {
-        // other options...
-        "allowJs": true,
-        "types": ["vite/client", "jquery"]
-      }
-    },
+    }
   ]
 }
