@@ -1,13 +1,17 @@
-<script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-
-</script>
-
 <template>
-  hello
-  </template>
+  <div id="app">
+    <Slider />
+  </div>
+</template>
 
+<script lang="ts">
+import { defineComponent } from 'vue'
+import Slider from './components/Slider.vue'
 
-<style>
-</style>
-
+export default defineComponent({
+  name: 'App',
+  components: {
+    Slider
+  }
+})
+</script>
