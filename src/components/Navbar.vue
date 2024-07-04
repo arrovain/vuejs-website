@@ -110,7 +110,7 @@
   
   <style scoped>
   *{
-    font-family: 'Gotham Narrow Book';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   nav {
     display: flex;
@@ -149,5 +149,15 @@ header {
   border: none;
   padding: 10px 20px;
   cursor: pointer;
+}
+
+.slider-container{
+  position: relative;
+}
+
+.insurance-types {
+  display: flex;
+  background-color: #3f51b5;
+  padding: 10px;
 }
   </style>
