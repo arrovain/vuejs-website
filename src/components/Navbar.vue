@@ -57,6 +57,15 @@
               </div>
             </div>
 
+            <div class="form-row">
+              <div class="form-group">
+                <label for="carYear" >Araç Yılı</label>
+                <select id="carYear" v-model="carYear">
+                  <option value="">Araç Yılını Seçiniz</option>
+                </select>
+              </div>
+            </div>
+
           </div>          
 
 
