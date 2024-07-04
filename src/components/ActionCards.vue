@@ -1,4 +1,10 @@
 <template>
+      <div class="image-section">
+     
+        <div class="overlay-text">Trafik Sigortaları</div>
+      </div>
+  
+     
      <div class="action-cards">
       <div class="card">
         <h3>TIKLA TEKLIF AL</h3>
@@ -54,7 +60,7 @@ export default {
 
 .nav-icons {
   display: flex;
-  background-color: #3f51b5;
+  background-color: #474d6b;
   padding: 10px;
 }
 
@@ -72,7 +78,7 @@ export default {
 }
 
 .image-section {
-  background-image: url('./assets/image.jpg');
+  background-image: url('');
   background-size: cover;
   position: relative;
 }
@@ -93,7 +99,9 @@ export default {
 }
 
 .card {
-  background-color: #f0f0f0;
+    
+  color: white;
+  background-color: #5a5a5c;
   padding: 20px;
   width: 30%; }
 
