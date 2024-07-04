@@ -49,12 +49,30 @@ export default {
     margin-inline-end: 0px;
     border-radius: 20px;
     unicode-bidi: isolate;
+    
 
 }
 
 .banner-content {
     display: flex;
     align-items: center;
+
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.message h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.message p {
+  font-size: 14px;
+  margin: 0;
 }
 
 

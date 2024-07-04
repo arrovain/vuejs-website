@@ -1,7 +1,7 @@
 <template>
     <nav>
       <div class="logo">
-        <img src="./assets/logo.png" alt="Logo" />
+        <img src="../assets/logo.jpg" alt="Logo" />
       </div>
       <ul class="nav-links">
         <li><a href="#home">Home</a></li>
