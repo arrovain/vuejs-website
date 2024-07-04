@@ -5,6 +5,8 @@
 
     <div class="product-grid">
         <div v-for="product in products" :key="product.name" class="product-item" :style="{backgroundColor: product.color}">
+            <img :src="product.icon" :alt="product.name">
+            <span>{{ product.name }}</span>            
     </div>
 
 
