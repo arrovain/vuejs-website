@@ -33,6 +33,8 @@
       <div class="slider-container">
         <div class="insurance-types">
           <div v-for="(type, index) in insuranceTypes :key="index" class="type-icon">
+            <img :src="type.icon" :alt"type.name">
+          </div>
 
         </div>
       </div>
