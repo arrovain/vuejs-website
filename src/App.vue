@@ -2,6 +2,7 @@
   <div id="app">
    
     <Navbar/>
+    <ActionCards/>
 
     <WeWillCallYou/>
     
@@ -13,6 +14,7 @@ import { defineComponent } from 'vue'
 import Slider from './components/Slider.vue'
 import Navbar from './components/Navbar.vue'
 import WeWillCallYou from './components/WeWillCallYou.vue'
+import ActionCards from "./components/ActionCards.vue"
 
 
 export default defineComponent({
@@ -21,6 +23,7 @@ export default defineComponent({
     Slider,
     Navbar,
     WeWillCallYou,
+    ActionCards,
     
   }
 })
