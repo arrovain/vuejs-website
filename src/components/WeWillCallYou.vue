@@ -8,6 +8,9 @@
         <p>Sigorta Çözümlerimizi inceleyin.</p>
       </div>
     </div>
+    <button class="call-button" @click="handleCallRequest">
+        
+    </button>
       
 </template>
 
