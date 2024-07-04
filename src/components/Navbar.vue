@@ -160,4 +160,13 @@ header {
   background-color: #3f51b5;
   padding: 10px;
 }
+
+.content-wrapper{
+  display: flex;
+}
+
+.quote-form {
+  flex: 1;
+  padding: 20px;
+}
   </style>
