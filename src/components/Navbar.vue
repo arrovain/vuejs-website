@@ -1,4 +1,14 @@
 <template>
+<div id="app">
+    <header>
+        <div class="contact-info">
+            <span><i class="email-icon"> info@tercansigorta.net </i> </span>
+            <span><i class="phone-icon"> 0 505 112 78 44 </i> </span>
+        </div>
+        
+  
+
+
       <nav>
         <div class="logo">
           <img src="./assets.logo.png" alt=" Logo">
@@ -17,6 +27,10 @@
         </ul>
         <button class="teklif-al-btn">TEKLİF AL</button>
       </nav>
+    </header>
+
+    
+    </div>
   </template>
   
   <script lang="ts">

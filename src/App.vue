@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Info/>
+   
     <Navbar/>
     <Slider />
     <WeWillCallYou/>
@@ -21,7 +21,7 @@ export default defineComponent({
     Slider,
     Navbar,
     WeWillCallYou,
-    Info,
+    
   }
 })
 </script>
