@@ -121,7 +121,18 @@
       carYear: '',
       profession: '',
     }
-
+  },
+  methods: {
+    submitForm() {
+    
+      console.log('Form submitted', { 
+        carBrand: this.carBrand, 
+        carModel: this.carModel, 
+        carYear: this.carYear, 
+        profession: this.profession 
+      });
+    }
+  }
   })
   </script>
   
