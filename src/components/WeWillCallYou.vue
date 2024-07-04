@@ -20,14 +20,14 @@
 
 
 <script>
- export default defineComponent({
+export default {
     name: 'WeWillCallYou',
     methods: {
         handleCallRequest() {
-            console.log('tıklandı')
-        }
+            console.log('tıklandı');
     }
-  })
+}
+}
 
 </script>
 
