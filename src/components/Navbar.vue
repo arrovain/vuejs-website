@@ -109,12 +109,15 @@
   </script>
   
   <style scoped>
+  *{
+    font-family: 'Gotham Narrow Book';
+  }
   nav {
     display: flex;
-    justify-content: space-between;
+
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #f8f8f8;
+  
+    
   }
 
 header {
@@ -123,18 +126,28 @@ header {
   padding: 10px 20px;
   background-color: #f8f8f8;
 }
-  
+
+
   .nav-links {
     display: flex;
     list-style: none;
   }
   
   .nav-links li {
-    margin-left: 1rem;
+    margin-right: 20px;
   }
   
   .nav-links a {
     text-decoration: none;
     color: #333;
   }
+
+
+.teklif-al-btn {
+  background-color: #00a86b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
   </style>
