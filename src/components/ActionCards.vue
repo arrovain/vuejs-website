@@ -11,6 +11,11 @@
         <p>Telefon ile bize her zaman ulaşabilir bilgi alabilirsiniz...</p>
         <button class="card-btn orange">0 505 112 78 44</button>
       </div>
+      <div class="card">
+        <h3>E-POSTA LISTESI</h3>
+        <p>Kampanya ve yeniliklerimizden haberdar olmak ister misiniz...</p>
+        <button class="card-btn red">Kaydol</button>
+      </div>
     </div>
 </template>
 
