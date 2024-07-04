@@ -16,7 +16,7 @@
 
       <nav>
         <div class="logo">
-          <img src="./assets.logo.png" alt=" Logo">
+          <img src="../assets/logo.jpg" alt=" Logo">
           <span>Sigorta Aracılık Hizmetleri</span>
         </div>
         <ul class="nav-links">
@@ -113,13 +113,13 @@
     data() {
     return {
       insuranceTypes: [
-        { name: 'Traffic', icon: 'path-to-traffic-icon.png' },
-        { name: 'Car', icon: 'path-to-car-icon.png' },
-        { name: 'Travel', icon: 'path-to-travel-icon.png' },
-        { name: 'Marine', icon: 'path-to-marine-icon.png' },
-        { name: 'Home', icon: 'path-to-home-icon.png' },
-        { name: 'Health', icon: 'path-to-health-icon.png' },
-        { name: 'Business', icon: 'path-to-business-icon.png' },
+        { name: 'Traffic', icon: 'https://www.svgrepo.com/show/499716/traffic-light.svg' },
+        { name: 'Car', icon: 'https://www.svgrepo.com/show/533551/car.svg' },
+        { name: 'Travel', icon: 'https://www.svgrepo.com/show/490284/plane-2.svg' },
+        { name: 'Marine', icon: 'https://www.svgrepo.com/show/485738/health.svg' },
+        { name: 'Home', icon: 'https://www.svgrepo.com/show/525383/home-1.svg' },
+        { name: 'Health', icon: 'https://www.svgrepo.com/show/527746/home-add.svg' },
+        { name: 'Business', icon: 'https://www.svgrepo.com/show/483411/handshake.svg' },
       ],
       carBrand: '',
       carModel: '',

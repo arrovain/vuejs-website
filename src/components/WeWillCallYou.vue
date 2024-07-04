@@ -3,8 +3,8 @@
         <div class="banner-content">
       
     <div class="message">
-        <h2>Hayatın beklenmedik süprizlerine karşı önlem aldınız mı ?</h2>
-        <p>Sigorta Çözümlerimizi inceleyin.</p>
+        <h2>Sigorta güvencenizle huzur ve güven içinde geleceğe adım atın. Tercan Sigorta Aracılık Hizmetleri ile her zaman yanınızdayız.</h2>
+       
       </div>
     </div>
 
