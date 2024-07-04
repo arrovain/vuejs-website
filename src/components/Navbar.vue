@@ -1,7 +1,9 @@
 <template>
 <div id="app">
     <header>
+      <div>  <h3> TERCAN SİGORTA </h3></div>
       <div class="contact-row">
+      
   <img src="https://www.svgrepo.com/show/533200/mail-alt-3.svg" alt="Email" class="icon">
   <p class="text">info@tercansigorta.net</p>
 </div>
@@ -15,10 +17,6 @@
 
 
       <nav>
-        <div class="logo">
-          <img src="../assets/logo.jpg" alt=" Logo">
-          <span>Sigorta Aracılık Hizmetleri</span>
-        </div>
         <ul class="nav-links">
           <li><a href="#">ANA SAYFA</a></li>
           <li>
@@ -158,6 +156,9 @@ header {
   justify-content: space-between;
   padding: 10px 20px;
   background-color: #f8f8f8;
+}
+h3{
+  color: red;
 }
 
 
