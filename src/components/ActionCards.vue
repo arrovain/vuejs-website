@@ -85,6 +85,19 @@ export default {
   color: white;
   font-size: 24px;
 }
+.action-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  
+}
+
+.card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  width: 30%;
+ 
+}
 
 
 
