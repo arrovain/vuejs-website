@@ -43,7 +43,8 @@
           <form @submit.prevent="submitForm"></form>
           <div class="form-row">
             <div class="form-group">
-              <label for="car-Brand"> Araç markası </label>
+              <label for="car-Brand"> Araç markası>
+              <select id="carBrand" v-model="carBrand" required>
               
             </div>
 
