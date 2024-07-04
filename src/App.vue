@@ -2,7 +2,7 @@
   <div id="app">
    
     <Navbar/>
-    <Slider />
+
     <WeWillCallYou/>
     
   </div>

@@ -1,10 +1,15 @@
 <template>
 <div id="app">
     <header>
-        <div class="contact-info">
-            <span><img src="https://www.svgrepo.com/show/522169/mail.svg">info@tercansigorta.net  </span>
-            <span><img src="https://www.svgrepo.com/show/526084/phone-rounded.svg">0 505 112 78 44</span>
-        </div>
+      <div class="contact-row">
+  <img src="https://www.svgrepo.com/show/533200/mail-alt-3.svg" alt="Email" class="icon">
+  <p class="text">info@tercansigorta.net</p>
+</div>
+<div class="contact-row">
+  <img src="https://www.svgrepo.com/show/528451/phone-calling-rounded.svg" alt="Phone" class="icon">
+  <p class="text">0 505 112 78 44</p>
+</div>
+
       
 
 
@@ -223,6 +228,22 @@ img{
 }
 .contact-info{
   display: flex;
+  gap: 20px;
   padding: 20px;
+  align-items: center;
+}
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.icon {
+  width: 20px; 
+  height: 20px; 
+}
+
+.text {
+  margin: 0; 
 }
 </style>
