@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <Info/>
     <Navbar/>
     <Slider />
     <WeWillCallYou/>
@@ -12,13 +13,15 @@ import { defineComponent } from 'vue'
 import Slider from './components/Slider.vue'
 import Navbar from './components/Navbar.vue'
 import WeWillCallYou from './components/WeWillCallYou.vue'
+import Info from './components/Info.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
     Slider,
     Navbar,
-    WeWillCallYou
+    WeWillCallYou,
+    Info,
   }
 })
 </script>
