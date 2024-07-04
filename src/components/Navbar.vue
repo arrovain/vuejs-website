@@ -45,6 +45,8 @@
             <div class="form-group">
               <label for="car-Brand"> Araç markası>
               <select id="carBrand" v-model="carBrand" required>
+                <option value="">Marka Seçiniz</option>
+              </select>
               
             </div>
 
