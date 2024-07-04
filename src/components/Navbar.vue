@@ -40,7 +40,13 @@
           >
         <div class="qoute-form">
           <h2>TRAFİK SİGORTASI TEKLİF AL</h2>
-          <form @submit.prevent="submitForm"></form>          
+          <form @submit.prevent="submitForm"></form>
+          <div class="form-row">
+            <div class="form-group">
+              
+            </div>
+
+          </div>          
 
 
         </div>
