@@ -5,7 +5,7 @@
     <ActionCards/>
 
     <WeWillCallYou/>
-    <Products/>
+    <PreferredPorducts/>
     
   </div>
 </template>
@@ -16,7 +16,8 @@ import Slider from './components/Slider.vue'
 import Navbar from './components/Navbar.vue'
 import WeWillCallYou from './components/WeWillCallYou.vue'
 import ActionCards from "./components/ActionCards.vue"
-import Products from "./components/Products.vue"
+
+import PreferredPorducts from './components/PreferredPorducts.vue'
 
 
 export default defineComponent({
@@ -26,7 +27,8 @@ export default defineComponent({
     Navbar,
     WeWillCallYou,
     ActionCards,
-    Products,
+    PreferredPorducts,
+   
     
   }
 })

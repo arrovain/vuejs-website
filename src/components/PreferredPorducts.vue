@@ -8,7 +8,7 @@
             <img :src="product.icon" :alt="product.name">
             <span>{{ product.name }}</span>            
     </div>
-
+</div>
 
 
 
@@ -25,8 +25,8 @@ export default {
     data() {
         return {
             products: [
-        { name: 'Kasko', color: '#3366cc', icon: '' },
-        { name: 'Trafik', color: '#888888', icon: '' },
+        { name: 'Kasko', color: '#3366cc', icon: 'fas fa-car' },
+        { name: 'Trafik', color: '#888888', icon: 'fas fa-truck' },
         { name: 'Konut', color: '#28a745', icon: ''},
         { name: 'Sağlık', color: '#a4c639', icon: '' },
         { name: 'Dask', color: '#ffd700', icon: '' },
