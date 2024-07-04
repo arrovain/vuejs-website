@@ -95,9 +95,20 @@ export default {
 .card {
   background-color: #f0f0f0;
   padding: 20px;
-  width: 30%;
- 
+  width: 30%; }
+
+.card-btn {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
 }
+
+.green { background-color: #4CAF50; }
+.orange { background-color: #FF9800; }
+.red { background-color: #F44336; }
+ 
+
 
 
 
