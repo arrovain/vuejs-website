@@ -5,7 +5,7 @@
 
     <div class="product-grid">
         <div v-for="product in products" :key="product.name" class="product-item" :style="{backgroundColor: product.color}">
-            <i :src="product.icon" :alt="product.name"/>
+            <i :src="product.icon" :alt="product.name"></i>
             <span>{{ product.name }}</span>            
     </div>
 </div>
@@ -42,3 +42,15 @@ export default {
     }
 }
 </script>
+
+<style>
+.preferred-products {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+</style>
