@@ -36,5 +36,12 @@ export default {
       }
     }
   },
+  methods: {
+    
+    submitForm() {
+      console.log('Form submitted:', this.form)
+    }
+  }
 }
+
 </script>
