@@ -17,12 +17,24 @@
         <button class="card-btn red">Kaydol</button>
       </div>
     </div>
+    
 </template>
 
 
 <script>
 
 export default {
-    name: "ActionCards"
+    name: "ActionCards",
+    data() {
+    return {
+      navIcons: ['traffic-light', 'car', 'plane', 'handshake', 'house', 'home', 'deal'],
+      form: {
+        brand: '',
+        model: '',
+        year: '',
+        profession: ''
+      }
+    }
+  },
 }
 </script>
