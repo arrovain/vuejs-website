@@ -40,7 +40,7 @@
           >
         <div class="qoute-form">
           <h2>TRAFİK SİGORTASI TEKLİF AL</h2>
-          
+          <form @submit.prevent="submitForm"></form>          
 
 
         </div>
