@@ -1,5 +1,13 @@
 <template>
+  <div class="preferred-products">
+    <h2>En Çok Tercih Edilen Ürünlerimiz</h2>
+    <p>Diğer ürünlerimizi görmek için menüden ilgili bölüme tıklayabilirsiniz </p>
 
+
+
+
+
+  </div>
 </template>
 
 
