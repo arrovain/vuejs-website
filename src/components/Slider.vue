@@ -26,9 +26,9 @@
   export default defineComponent({
     setup() {
       const slides = [
-        { image: slider1, title: 'Slide 1', description: 'Description 1' },
-        { image: slider2, title: 'Slide 2', description: 'Description 2' },
-        { image: slider3, title: 'Slide 3', description: 'Description 3' },
+        { image: slider1, title: '', description: '' },
+        { image: slider2, title: '', description: '' },
+        { image: slider3, title: '', description: '' },
       ]
   
       const currentIndex = ref(0)
