@@ -169,4 +169,15 @@ header {
   flex: 1;
   padding: 20px;
 }
+.slider-image {
+  flex: 1;
+  position: relative;
+}
+.slider-caption {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+}
   </style>
