@@ -180,4 +180,12 @@ header {
   color: white;
   font-size: 24px;
 }
+
+.slider-nav{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+}
   </style>
