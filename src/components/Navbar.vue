@@ -34,16 +34,16 @@
   </header>
 
   <div class="insurance-section">
-    <!-- Navigation icons -->
+  
     <div class="nav-icons">
       <div v-for="icon in navIcons" :key="icon" class="icon">
-        <img src="" :alt="icon">
+        <img :src="getIconSrc(icon)" :alt="icon">
       </div>
     </div>
 
-    <!-- Main content area -->
+
     <div class="main-content">
-      <!-- Form section -->
+     
       <div class="form-section">
         <h2>TRAFIK SIGORTASI TEKLIF AL</h2>
         <form @submit.prevent="submitForm">
@@ -51,35 +51,39 @@
             <label for="brand">Araç Markası *</label>
             <select v-model="form.brand" id="brand" required>
               <option value="">Marka Seçiniz</option>
-              <!-- Add options here -->
+       
+              
             </select>
           </div>
           <div class="form-group">
             <label for="model">Araç Modeli *</label>
             <select v-model="form.model" id="model" required>
               <option value="">Model Seçiniz</option>
-              <!-- Add options here -->
+              
+              
             </select>
           </div>
           <div class="form-group">
             <label for="year">Araç Yılı</label>
             <select v-model="form.year" id="year">
               <option value="">Araç Yılı Seçiniz</option>
-              <!-- Add options here -->
+            
+              
             </select>
           </div>
           <div class="form-group">
             <label for="profession">Mesleğiniz</label>
             <select v-model="form.profession" id="profession">
               <option value="">Meslek Seçiniz</option>
-              <!-- Add options here -->
+          
+              
             </select>
           </div>
           <button type="submit" class="submit-btn">Hızlı Teklif Al →</button>
         </form>
       </div>
 
-      <!-- Slider section -->
+     
       <div class="slider-section">
         <transition-group name="fade" tag="div">
           <div v-for="(slide, index) in slides" :key="slide.id" v-show="currentSlide === index" class="slide">
@@ -112,14 +116,14 @@ export default {
       currentSlide: 0,
       slides: [
         { id: 1, image: 'path/to/family-image.jpg', alt: 'Happy Family', text: 'Güvenle İzle Mutlu Bir Gelecek' },
-        // Add more slides as needed
+       
       ]
     }
   },
   methods: {
     
     submitForm() {
-      // Handle form submission
+   
       console.log('Form submitted:', this.form)
     },
     nextSlide() {
@@ -192,7 +196,7 @@ h3{
 
 .main-content {
   display: flex;
-  height: 400px; /* Adjust as needed */
+  height: 400px; 
 }
 
 .form-section, .slider-section {
@@ -270,7 +274,7 @@ h3{
   cursor: pointer;
 }
 
-/* Transition effects */
+
 .fade-enter-active, .fade-leave-active {
   transition: opacity 0.5s ease;
 }
