@@ -10,7 +10,7 @@
 
     <button class="call-button" @click="handleCallRequest">
 
-        <img src="./assets/phone.svg" alt="phoneicon"/>
+        <img src="https://www.svgrepo.com/show/506269/phone.svg" alt="phoneicon"/>
 
         Sizi Arayalım
         
