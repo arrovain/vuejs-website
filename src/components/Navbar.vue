@@ -55,6 +55,13 @@
 
                 </select>
               </div>
+              <div class="form-group">
+                  <label for="profession">Mesleğiniz</label>
+                  <select id="profession" v-model="profession">
+                    <option value="">Meslek Seçiniz</option>
+                   
+                  </select>
+                </div>
             </div>
 
             <div class="form-row">
