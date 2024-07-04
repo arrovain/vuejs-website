@@ -1,15 +1,22 @@
 <template>
-    <nav>
-      <div class="logo">
-        <img src="../assets/logo.jpg" alt="Logo" />
-      </div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <div class="logo">
+          <img src="./assets.logo.png" alt=" Logo">
+          <span>Sigorta Aracılık Hizmetleri</span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">ANA SAYFA</a></li>
+          <li>
+            <a href="#">KURUMSAL <i class="dropdown-icon"></i></a>
+          </li>
+          <li>
+            <a href="#">HİZMETLERİMİZ <i class="dropdown-icon"></i></a>
+          </li>
+          <li><a href="#">POLİÇE HATIRLAT</a></li>
+          <li><a href="#">İLETİŞİM</a></li>
+        </ul>
+        <button class="teklif-al-btn">TEKLİF AL</button>
+      </nav>
   </template>
   
   <script lang="ts">
