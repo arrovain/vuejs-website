@@ -71,6 +71,20 @@ export default {
   flex: 1;
 }
 
+.image-section {
+  background-image: url('./assets/image.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+}
 
 
 
