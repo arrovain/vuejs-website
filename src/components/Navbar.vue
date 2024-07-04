@@ -48,6 +48,13 @@
                 <option value="">Marka Seçiniz</option>
               </select>
               
+              <div class="form-group">
+                <label for="carModel">Araç modeli</label>
+                <select id="carModel" v-model="carModel" required>
+                  <option value="">Model Seçiniz</option>
+
+                </select>
+              </div>
             </div>
 
           </div>          
