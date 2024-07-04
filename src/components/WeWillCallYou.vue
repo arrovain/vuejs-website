@@ -8,9 +8,12 @@
         <p>Sigorta Çözümlerimizi inceleyin.</p>
       </div>
     </div>
+
     <button class="call-button" @click="handleCallRequest">
         
+
     </button>
+</div>
       
 </template>
 
@@ -18,7 +21,12 @@
 
 <script>
  export default defineComponent({
-    name: 'WeWillCallYou'
+    name: 'WeWillCallYou',
+    methods: {
+        handleCallRequest() {
+            console.log('tıklandı')
+        }
+    }
   })
 
 </script>
