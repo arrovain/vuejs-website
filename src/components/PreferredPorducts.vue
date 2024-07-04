@@ -3,6 +3,10 @@
     <h2>En Çok Tercih Edilen Ürünlerimiz</h2>
     <p>Diğer ürünlerimizi görmek için menüden ilgili bölüme tıklayabilirsiniz </p>
 
+    <div class="product-grid">
+        <div v-for="product in products" :key="product.name" class="product-item" :style="{backgroundColor: product.color}">
+    </div>
+
 
 
 
