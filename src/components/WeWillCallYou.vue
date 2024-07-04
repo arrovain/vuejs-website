@@ -52,5 +52,10 @@ export default {
 
 }
 
+.banner-content {
+    display: flex;
+    align-items: center;
+}
+
 
 </style>
