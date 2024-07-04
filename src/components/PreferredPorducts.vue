@@ -18,7 +18,12 @@
 
 
 
+
 <script>
+
+
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 
 export default {
     name: 'PreferredProducts', 
@@ -52,5 +57,32 @@ export default {
 h2 {
   font-size: 24px;
   margin-bottom: 10px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  aspect-ratio: 1;
+  text-align: center;
+}
+
+.product-item i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.product-item span {
+  font-weight: bold;
 }
 </style>
