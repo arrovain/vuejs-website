@@ -35,18 +35,20 @@
           <div v-for="(type, index) in insuranceTypes" :key="index" class="type-icon">
             <img :src="type.icon" :alt="type.name">
           </div>
+        </div>
 
           <div class="content-wrapper"
           >
         <div class="qoute-form">
           <h2>TRAFİK SİGORTASI TEKLİF AL</h2>
-          <form @submit.prevent="submitForm"></form>
+          <form @submit.prevent="submitForm">
           <div class="form-row">
             <div class="form-group">
-              <label for="car-Brand"> Araç markası>
+              <label for="car-Brand"> Araç markası </label>
               <select id="carBrand" v-model="carBrand" required>
                 <option value="">Marka Seçiniz</option>
               </select>
+            </div>
               
               <div class="form-group">
                 <label for="carModel">Araç modeli</label>
@@ -55,6 +57,7 @@
 
                 </select>
               </div>
+              
               <div class="form-group">
                   <label for="profession">Mesleğiniz</label>
                   <select id="profession" v-model="profession">
@@ -73,9 +76,17 @@
               </div>
             </div>
             <button type="submit" class="submit-btn">Hızlı Teklif Al →</button>
+          </form>
+        </div>
+        <div class="slider-image">
+            <img src="./assets/slider.jpg" alt="Trafik Sigortaları">
+            <div class="slider-caption">Trafik Sigortaları</div>
+            <div class="slider-nav">
+              <button class="prev"></button>
+              <button class="next"></button>
 
 
-          </div>          
+                
 
 
         </div>
@@ -105,6 +116,13 @@
     padding: 1rem 2rem;
     background-color: #f8f8f8;
   }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
   
   .nav-links {
     display: flex;
