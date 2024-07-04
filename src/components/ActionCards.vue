@@ -58,6 +58,20 @@ export default {
   padding: 10px;
 }
 
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.main-section {
+    display: flex;
+}
+.form-section, .image-section {
+  flex: 1;
+}
+
+
 
 
 
