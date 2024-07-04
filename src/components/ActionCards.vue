@@ -45,3 +45,20 @@ export default {
 }
 
 </script>
+
+<style scoped>
+
+.insurance-app {
+  font-family: Arial, sans-serif;
+}
+
+.nav-icons {
+  display: flex;
+  background-color: #3f51b5;
+  padding: 10px;
+}
+
+
+
+
+</style>
