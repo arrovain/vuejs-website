@@ -29,6 +29,14 @@
       </nav>
     </header>
 
+    <main>
+      <div class="slider-container">
+        <div class="insurance-types">
+          
+        </div>
+      </div>
+    </main>
+
     
     </div>
   </template>

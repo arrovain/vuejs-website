@@ -13,7 +13,7 @@ import { defineComponent } from 'vue'
 import Slider from './components/Slider.vue'
 import Navbar from './components/Navbar.vue'
 import WeWillCallYou from './components/WeWillCallYou.vue'
-import Info from './components/Info.vue'
+
 
 export default defineComponent({
   name: 'App',
