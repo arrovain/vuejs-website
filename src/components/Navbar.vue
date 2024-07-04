@@ -2,11 +2,11 @@
 <div id="app">
     <header>
         <div class="contact-info">
-            <span><i class="email-icon"> info@tercansigorta.net </i> </span>
-            <span><i class="phone-icon"> 0 505 112 78 44 </i> </span>
+            <span><img src="https://www.svgrepo.com/show/522169/mail.svg">info@tercansigorta.net  </span>
+            <span><img src="https://www.svgrepo.com/show/526084/phone-rounded.svg">0 505 112 78 44</span>
         </div>
-        
-  
+      
+
 
 
       <nav>
@@ -104,7 +104,24 @@
   import { defineComponent } from 'vue'
   
   export default defineComponent({
-    name: 'Navbar'
+    name: 'Navbar',
+    data() {
+    return {
+      insuranceTypes: [
+        { name: 'Traffic', icon: 'path-to-traffic-icon.png' },
+        { name: 'Car', icon: 'path-to-car-icon.png' },
+        { name: 'Travel', icon: 'path-to-travel-icon.png' },
+        { name: 'Marine', icon: 'path-to-marine-icon.png' },
+        { name: 'Home', icon: 'path-to-home-icon.png' },
+        { name: 'Health', icon: 'path-to-health-icon.png' },
+        { name: 'Business', icon: 'path-to-business-icon.png' },
+      ],
+      carBrand: '',
+      carModel: '',
+      carYear: '',
+      profession: '',
+    }
+
   })
   </script>
   
@@ -188,4 +205,13 @@ header {
   display: flex;
   justify-content: space-between
 }
-  </style>
+
+img{
+  width: 30px;
+
+}
+.contact-info{
+  display: flex;
+  padding: 20px;
+}
+</style>
