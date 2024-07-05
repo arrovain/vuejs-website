@@ -16,7 +16,6 @@ import Slider from './components/Slider.vue'
 import Navbar from './components/Navbar.vue'
 import WeWillCallYou from './components/WeWillCallYou.vue'
 import ActionCards from "./components/ActionCards.vue"
-
 import PreferredPorducts from './components/PreferredPorducts.vue'
 
 

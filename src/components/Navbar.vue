@@ -1,251 +1,156 @@
 <template>
-<div id="app">
-  <header>
-    <div>  <h3> TERCAN SİGORTA </h3></div>
-    <div class="contact-row">
-    
-<img src="https://www.svgrepo.com/show/533200/mail-alt-3.svg" alt="Email" class="icon">
-<p class="text">info@tercansigorta.net</p>
-</div>
-<div class="contact-row">
-<img src="https://www.svgrepo.com/show/528451/phone-calling-rounded.svg" alt="Phone" class="icon">
-<p class="text">0 505 112 78 44</p>
-</div>
-
-    
-
-
-
-    <nav>
-      <ul class="nav-links">
-        <li><a href="#">ANA SAYFA</a></li>
-        <li>
-          <a href="#">KURUMSAL <i class="dropdown-icon"></i></a>
-        </li>
-        <li>
-          <a href="#">HİZMETLERİMİZ <i class="dropdown-icon"></i></a>
-        </li>
-        <li><a href="#">POLİÇE HATIRLAT</a></li>
-        <li><a href="#">İLETİŞİM</a></li>
-        <button class="teklif-al-btn">TEKLİF AL</button>
-      </ul>
-      
-    </nav>
-  </header>
-
-  <div class="insurance-section">
-  
-    <div class="nav-icons">
-      <div v-for="icon in navIcons" :key="icon" class="icon">
-        <img :src="getIconSrc(icon)" :alt="icon">
+  <div class="insurance-app">
+ 
+    <header>
+      <div class="logo">TERCAN SİGORTA</div>
+      <div class="contact-info">
+        <span><i class="fas fa-envelope"></i> info@tercansigorta.net</span>
+        <span><i class="fas fa-phone"></i> 0 505 112 78 44</span>
       </div>
-    </div>
-
+      <nav>
+        <a href="#" v-for="link in navLinks" :key="link">{{ link }}</a>
+        <button class="teklif-al">TEKLİF AL</button>
+      </nav>
+    </header>
 
     <div class="main-content">
      
-      <div class="form-section">
-        <h2>TRAFIK SIGORTASI TEKLIF AL</h2>
-        <form @submit.prevent="submitForm">
-          <div class="form-group">
-            <label for="brand">Araç Markası *</label>
-            <select v-model="form.brand" id="brand" required>
-              <option value="">Marka Seçiniz</option>
-       
-              
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="model">Araç Modeli *</label>
-            <select v-model="form.model" id="model" required>
-              <option value="">Model Seçiniz</option>
-              
-              
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="year">Araç Yılı</label>
-            <select v-model="form.year" id="year">
-              <option value="">Araç Yılı Seçiniz</option>
-            
-              
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="profession">Mesleğiniz</label>
-            <select v-model="form.profession" id="profession">
-              <option value="">Meslek Seçiniz</option>
-          
-              
-            </select>
-          </div>
-          <button type="submit" class="submit-btn">Hızlı Teklif Al →</button>
-        </form>
-      </div>
+      <div class="blue-bar"></div>
 
-     
-      <div class="slider-section">
-        <transition-group name="fade" tag="div">
-          <div v-for="(slide, index) in slides" :key="slide.id" v-show="currentSlide === index" class="slide">
-            <img :src="slide.image" :alt="slide.alt">
-            <div class="overlay-text">{{ slide.text }}</div>
+      
+      <div class="form-slider-container">
+        <div class="form-section">
+          <h2>TRAFİK SİGORTASI TEKLİF AL</h2>
+          <form @submit.prevent="submitForm">
+            <div class="form-group" v-for="field in formFields" :key="field.name">
+              <label :for="field.name">{{ field.label }}</label>
+              <select :id="field.name" v-model="form[field.name]">
+                <option value="">{{ field.placeholder }}</option>
+              </select>
+            </div>
+            <button type="submit" class="submit-btn">Hızlı Teklif Al →</button>
+          </form>
+        </div>
+        <div class="slider-section">
+          <img src="../assets/trafic.jpg" alt="Happy Family">
+          <div class="overlay-text">Güvenle İzle Mutlu Bir Gelecek</div>
+          <div class="slider-controls">
+            <button @click="prevSlide" class="slider-btn prev">&lt;</button>
+            <button @click="nextSlide" class="slider-btn next">&gt;</button>
           </div>
-        </transition-group>
-        <div class="slider-controls">
-          <button @click="prevSlide" class="slider-btn prev">&lt;</button>
-          <button @click="nextSlide" class="slider-btn next">&gt;</button>
         </div>
       </div>
+
+    
+      <div class="action-cards">
+        <div class="card" v-for="card in actionCards" :key="card.title">
+          <h3>{{ card.title }}</h3>
+          <p>{{ card.description }}</p>
+          <button :class="card.buttonClass">{{ card.buttonText }}</button>
+        </div>
+      </div>
+
+  
+    
     </div>
-  </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Navbar",
   data() {
     return {
-      navIcons: ['traffic-light', 'car', 'plane', 'handshake', 'house', 'home', 'deal'],
-      form: {
-        brand: '',
-        model: '',
-        year: '',
-        profession: ''
-      },
-      currentSlide: 0,
-      slides: [
-        { id: 1, image: 'path/to/family-image.jpg', alt: 'Happy Family', text: 'Güvenle İzle Mutlu Bir Gelecek' },
-       
-      ]
+      name: 'Navbar',
+      navLinks: ['ANA SAYFA', 'KURUMSAL', 'HİZMETLERİMİZ', 'POLİÇE HATIRLAT', 'İLETİŞİM'],
+      form: {},
+      formFields: [
+        { name: 'brand', label: 'Araç Markası *', placeholder: 'Marka Seçiniz' },
+        { name: 'model', label: 'Araç Modeli *', placeholder: 'Model Seçiniz' },
+        { name: 'year', label: 'Araç Yılı', placeholder: 'Araç Yılı Seçiniz' },
+        { name: 'profession', label: 'Mesleğiniz', placeholder: 'Meslek Seçiniz' }
+      ],
+      
     }
   },
   methods: {
-    
     submitForm() {
    
-      console.log('Form submitted:', this.form)
-    },
-    nextSlide() {
-      this.currentSlide = (this.currentSlide + 1) % this.slides.length
     },
     prevSlide() {
-      this.currentSlide = (this.currentSlide - 1 + this.slides.length) % this.slides.length
+  
+    },
+    nextSlide() {
+   
     }
   }
 }
 </script>
 
 <style scoped>
-.teklif-al-btn {
-  background-color: #00a86b;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
+.insurance-app {
+  font-family: Arial, sans-serif;
 }
 
-.nav-links {
-    display: flex;
-    list-style: none;
-  }
-  
-  .nav-links li {
-    margin-right: 20px;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: #333;
-  }
-.contact-row {
-  display: flex;
-  align-items: center;
-  gap: 10px; 
-}
-.text {
-  margin: 0; 
-}
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 20px;
-  background-color: #f8f8f8;
 }
 
-
-.insurance-section {
-  font-family: Arial, sans-serif;
-}
-h3{
+.logo {
   color: red;
+  font-weight: bold;
 }
 
+.contact-info span {
+  margin-right: 20px;
+}
 
-.nav-icons {
+nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.teklif-al {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+
+.blue-bar {
+  height: 10px;
+  background-color: blue;
+}
+
+.form-slider-container {
   display: flex;
-  background-color: #3f51b5;
-  padding: 10px;
-}
-
-.icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-
-.main-content {
-  display: flex;
-  height: 400px; 
 }
 
 .form-section, .slider-section {
   flex: 1;
 }
 
-.form-section {
-  padding: 20px;
-}
-
 .form-group {
   margin-bottom: 15px;
 }
 
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group select {
-  width: 100%;
-  padding: 8px;
-}
-
 .submit-btn {
-  background-color: #4CAF50;
+  background-color: green;
   color: white;
-  padding: 10px 20px;
   border: none;
-  cursor: pointer;
+  padding: 10px 20px;
 }
 
 .slider-section {
   position: relative;
-  overflow: hidden;
 }
 
-.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
+.slider-section img {
   width: 100%;
-  height: 100%;
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
 }
 
 .overlay-text {
@@ -253,8 +158,6 @@ h3{
   bottom: 20px;
   left: 20px;
   color: white;
-  font-size: 24px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 .slider-controls {
@@ -266,20 +169,32 @@ h3{
   justify-content: space-between;
 }
 
-.slider-btn {
-  background: rgba(0,0,0,0.5);
+.action-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #666;
+  color: white;
+  padding: 20px;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.footer-message {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.call-btn {
+  background-color: gray;
   color: white;
   border: none;
-  padding: 10px 15px;
-  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity 0.5s ease;
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0;
-}
 </style>
-  
