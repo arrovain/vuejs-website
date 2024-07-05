@@ -34,7 +34,21 @@ export default {
                     date: 'KASIM, 05, 2015',
                     title: '2021 de sigorta primi yükselecek',
                     summary: 'Türkiye sigorta bişrliği tsb başkanı atilla benli salgınla geçen'
-                }
+                },
+                {
+          image: '',
+          category: 'HABERLER',
+          date: 'KASIM, 07 2015',
+          title: "2021'de sigorta sektöründe neler olacak?",
+          summary: "Pandemi, deprem, sel, dolu derken zor bir yılı geride bırakıyoruz. 2020 herkes için büyük bir sınav yılı oldu. Şimdi, bu zorlu sınavdan elde ettiğimiz kazanımlar,..."
+        },
+        {
+          image: '',
+          category: 'HABERLER',
+          date: 'KASIM, 07 2015',
+          title: "2020'de doğa olayları ağır fatura çıkardı",
+          summary: "2020 yılında pandeminin yanı sıra küresel ısınmaya bağlı olarak dünyanın dört bir yanında yaşanan doğa olayları da geride ağır kayıplar bıraktı. Doğa olaylarının sigorta şirketlerine..."
+        }
             ]
         }
     }
