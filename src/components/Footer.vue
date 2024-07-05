@@ -7,7 +7,7 @@ export default {
 <template>
     <footer class="footer">
       <div class="footer-content">
-        <div> <img class="imggggg" src="../assets/eterna.jpg"/></div>
+        
         <div class="logo">
          
           <span class="logo-text">TERCAN SİGORTA </span><span class="logo-24"></span>
@@ -18,9 +18,18 @@ export default {
         </div>
       </div>
     </footer>
+    <div class="imggggg"> <img  src="../assets/eterna.jpg"/></div>
   </template>
 
   <style>
+  .imggggg{
+    background-color: black;
+    max-width: 12000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+  }
 
   .footer{
     background-color: black;
