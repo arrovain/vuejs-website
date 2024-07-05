@@ -4,10 +4,10 @@
     <p>Diğer ürünlerimizi görmek için menüden ilgili bölüme tıklayabilirsiniz </p>
 
     <div class="product-grid">
-        <div v-for="product in products" :key="product.name" class="product-item" :style="{backgroundColor: product.color}">
-            <i :src="product.icon" :alt="product.name"></i>
+        <i v-for="product in products" :key="product.name" class="product-item" :style="{backgroundColor: product.color}">
+            <i :class="product.icon" :alt="product.name"></i>
             <span>{{ product.name }}</span>            
-    </div>
+    </i>
 </div>
 
 
@@ -20,9 +20,9 @@
 
 
 <script>
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
-
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 export default {
@@ -30,9 +30,9 @@ export default {
     data() {
         return {
             products: [
-        { name: 'Kasko', color: '#3366cc', icon: 'fas fa-car' },
-        { name: 'Trafik', color: '#888888', icon: 'fas fa-truck' },
-        { name: 'Konut', color: '#28a745', icon: 'fas fa-home'},
+        { name: 'Kasko', color: '#3366cc', icon: 'fa fa-car'},
+        { name: 'Trafik', color: '#888888', icon: 'fa fa-truck' },
+        { name: 'Konut', color: '#28a745', icon: 'fa-solid fa-building' },
         { name: 'Sağlık', color: '#a4c639', icon: 'fas fa-heart' },
         { name: 'Dask', color: '#ffd700', icon: 'fas fa-bolt' },
         { name: 'Seyahat', color: '#ffa500', icon: 'fas fa-briefcase' },

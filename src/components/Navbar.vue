@@ -21,6 +21,13 @@
       <div class="form-slider-container">
         <div class="form-section">
           <h2>TRAFİK SİGORTASI TEKLİF AL</h2>
+          <i class="bi bi-arrows-angle-contract"></i>
+
+          <i class="bi bi-arrows-angle-contract"></i>
+
+          <i class="bi bi-arrows-angle-contract"></i>
+
+          
           <form @submit.prevent="submitForm">
             <div class="form-group" v-for="field in formFields" :key="field.name">
               <label :for="field.name">{{ field.label }}</label>
@@ -28,7 +35,7 @@
                 <option value="">{{ field.placeholder }}</option>
               </select>
             </div>
-            <button type="submit" class="submit-btn">Hızlı Teklif Al →</button>
+            <button type="submit" class="submit-btn" >Hızlı Teklif Al →</button>
           </form>
         </div>
         <div class="slider-section">
