@@ -17,3 +17,23 @@ export default {
       </div>
     </footer>
   </template>
+
+  <style>
+
+  .footer{
+    background-color: #e0e0e0;
+  }
+
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+  }
+    
+  </style>
+
