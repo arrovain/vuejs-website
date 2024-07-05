@@ -7,7 +7,7 @@ export default {
 <template>
     <footer class="footer">
       <div class="footer-content">
-        <div> <img src="../assets/eterna.jpg"/></div>
+        <div> <img class="imggggg" src="../assets/eterna.jpg"/></div>
         <div class="logo">
          
           <span class="logo-text">TERCAN SİGORTA </span><span class="logo-24"></span>
@@ -42,27 +42,25 @@ export default {
     .logo-text {
   font-size: 24px;
   font-weight: bold;
-  color: #1111d1; 
+  color: white; 
 }
 
 .logo-24 {
   font-size: 24px;
   font-weight: bold;
-  color: #1111d1; 
+  color: white; 
 }
 
 .logo-slogan {
   font-size: 14px;
   margin-left: 10px;
-  color: #1111d1; 
+  color: white; 
 }
 
 .rights {
   font-size: 14px;
-  color: #1111d1; 
+  color: white; 
 }
 
-  
-    
   </style>
 
