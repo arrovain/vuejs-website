@@ -76,6 +76,16 @@ h2 {
   background: url('') repeat-x;
   margin-bottom: 1rem;
 }
+.description {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
 
 
 </style>
