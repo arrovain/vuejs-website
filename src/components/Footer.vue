@@ -7,7 +7,9 @@ export default {
 <template>
     <footer class="footer">
       <div class="footer-content">
+        <div> <img src="../assets/eterna.jpg"/></div>
         <div class="logo">
+         
           <span class="logo-text">TERCAN SİGORTA </span><span class="logo-24"></span>
           <span class="logo-slogan">Sigorta Aracılık Hizmetleri</span>
         </div>
@@ -21,7 +23,7 @@ export default {
   <style>
 
   .footer{
-    background-color: #e0e0e0;
+    background-color: black;
   }
 
   .footer-content{
@@ -40,24 +42,24 @@ export default {
     .logo-text {
   font-size: 24px;
   font-weight: bold;
-  color: #3c3c8c; 
+  color: #1111d1; 
 }
 
 .logo-24 {
   font-size: 24px;
   font-weight: bold;
-  color: #3c3c8c; 
+  color: #1111d1; 
 }
 
 .logo-slogan {
   font-size: 14px;
   margin-left: 10px;
-  color: #3c3c8c; 
+  color: #1111d1; 
 }
 
 .rights {
   font-size: 14px;
-  color: #3c3c8c; 
+  color: #1111d1; 
 }
 
   

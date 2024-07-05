@@ -1,11 +1,10 @@
 <template>
 
 <section class="haberler">
-    <h2>HABERLER</h2>
+    <h2> Sektorel Haberler ve Faydalı Bilgiler</h2>
     <div class="wave-divider"></div>
     <p class="description">
-      Sigortalılarımıza en doğru sigortalanma çözümlerini en uygun şartlarla sunmayı kuruluş ve hizmet felsefemiz olarak
-      benimsedik. Başarımızın en önemli nedeni, her biri kendi alanında uzman olan çalışanlarımızdır.
+      Tercan Sigorta ile Güncel Sigorta Haberleri ve Bilgilendirmeler: Güvenliğiniz İçin En Son Gelişmeleri Takip Edin.
     </p>
     <div class="news-grid">
       <div v-for="(article, index) in newsArticles" :key="index" class="news-item">
