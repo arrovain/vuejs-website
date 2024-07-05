@@ -6,6 +6,7 @@
 
     <WeWillCallYou/>
     <PreferredPorducts/>
+    <Slider/>
     <News/>
     <Footer/>
     
