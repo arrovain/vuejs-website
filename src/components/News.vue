@@ -27,23 +27,23 @@
 export default {
     data() {
         return {
-            newArticles: [
+            newsArticles: [
                 {
-                    image: '',
+                    image: 'https://hercan.com.tr/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_L.jpg',
                     category: 'HABERLER',
                     date: 'KASIM, 05, 2015',
                     title: '2021 de sigorta primi yükselecek',
                     summary: 'Türkiye sigorta bişrliği tsb başkanı atilla benli salgınla geçen'
                 },
                 {
-          image: '',
+          image: 'https://hercan.com.tr/media/k2/items/cache/f4b6dca0e2911082f0eb6e1df1a0e11d_L.jpg',
           category: 'HABERLER',
           date: 'KASIM, 07 2015',
           title: "2021'de sigorta sektöründe neler olacak?",
           summary: "Pandemi, deprem, sel, dolu derken zor bir yılı geride bırakıyoruz. 2020 herkes için büyük bir sınav yılı oldu. Şimdi, bu zorlu sınavdan elde ettiğimiz kazanımlar,..."
         },
         {
-          image: '',
+          image: 'https://hercan.com.tr/media/k2/items/cache/4965657af186b9092c7a96976ffe881c_L.jpg',
           category: 'HABERLER',
           date: 'KASIM, 07 2015',
           title: "2020'de doğa olayları ağır fatura çıkardı",
@@ -85,6 +85,10 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.news-item {
+  text-align: left;
 }
 
 
