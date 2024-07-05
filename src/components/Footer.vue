@@ -31,9 +31,36 @@ export default {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
-
-
   }
+.logo{
+        display: flex;
+        align-items: center;
+    }
+
+    .logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3c3c8c; 
+}
+
+.logo-24 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #3c3c8c; 
+}
+
+.logo-slogan {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #3c3c8c; 
+}
+
+.rights {
+  font-size: 14px;
+  color: #3c3c8c; 
+}
+
+  
     
   </style>
 
