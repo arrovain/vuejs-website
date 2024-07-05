@@ -17,6 +17,10 @@ import {Carousel, Slide} from 'vue-carousel'
 
 export default {
   name: 'Slider',
+  components: {
+    Carousel,
+    Slide
+  },
 
 }
 </script>
