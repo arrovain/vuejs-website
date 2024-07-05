@@ -11,9 +11,8 @@
 
 
 <script>
+import {Carousel, Slide} from 'vue-carousel';
 
-
-import {Carousel, Slide} from 'vue-carousel'
 
 export default {
   name: 'Slider',
@@ -21,6 +20,16 @@ export default {
     Carousel,
     Slide
   },
-
-}
+  data() {
+    return {
+      images: [
+        { src: '', alt: 'Ankara Sigorta' },
+        { src: '', alt: 'Quick Sigorta' },
+        { src: '', alt: 'Emaa Sigorta' },
+        { src: '', alt: 'Aveon Sigorta' },
+        { src: '', alt: 'Hepiyi Sigorta' }
+      ]
+    };
+  }
+};
 </script>
