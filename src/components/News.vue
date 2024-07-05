@@ -56,3 +56,26 @@ export default {
 
 
 </script>
+
+
+<style>
+
+.haberler {
+    text-align: center;
+    padding: 2rem;
+}
+
+h2 {
+  color: red;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.wave-divider {
+  height: 10px;
+  background: url('') repeat-x;
+  margin-bottom: 1rem;
+}
+
+
+</style>
