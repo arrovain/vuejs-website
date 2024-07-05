@@ -90,6 +90,11 @@ h2 {
 .news-item {
   text-align: left;
 }
+.news-item img {
+  width: 100%;
+  height: auto;
+  
+}
 
 
 </style>
