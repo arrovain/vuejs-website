@@ -21,3 +21,24 @@
 
 
 </template>
+
+
+<script>
+export default {
+    data() {
+        return {
+            newArticles: [
+                {
+                    image: '',
+                    category: 'HABERLER',
+                    date: 'KASIM, 05, 2015',
+                    title: '2021 de sigorta primi yükselecek',
+                    summary: 'Türkiye sigorta bişrliği tsb başkanı atilla benli salgınla geçen'
+                }
+            ]
+        }
+    }
+}
+
+
+</script>
