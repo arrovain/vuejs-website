@@ -2,7 +2,7 @@
   <div class="insurance-app">
  
     <header>
-      <div class="logo">TERCAN SİGORTA</div>
+      <div class="logo"> <img class="imgg" src="../assets/logo.jpg"/></div>
       <div class="contact-info">
         <span><i class="fas fa-envelope"></i> info@tercansigorta.net</span>
         <span><i class="fas fa-phone"></i> 0 505 112 78 44</span>
@@ -98,9 +98,10 @@ header {
   padding: 10px 20px;
 }
 
-.logo {
+.imgg{
   color: red;
-  font-weight: bold;
+  max-height: 77px;
+  max-width: 77px;
 }
 
 .contact-info span {

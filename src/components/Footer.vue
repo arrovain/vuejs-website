@@ -8,7 +8,7 @@ export default {
     <footer class="footer">
       <div class="footer-content">
         <div class="logo">
-          <span class="logo-text">TERCAN SİGORTA LOGO</span><span class="logo-24">24</span>
+          <span class="logo-text">TERCAN SİGORTA </span><span class="logo-24"></span>
           <span class="logo-slogan">Sigorta Aracılık Hizmetleri</span>
         </div>
         <div class="rights">
