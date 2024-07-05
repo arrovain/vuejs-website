@@ -64,7 +64,7 @@ export default {
     padding: 2rem;
 }
 
-h2 {
+h2{
   color: red;
   font-size: 2rem;
   margin-bottom: 0.5rem;
