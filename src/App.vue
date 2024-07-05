@@ -7,6 +7,7 @@
     <WeWillCallYou/>
     <PreferredPorducts/>
     <News/>
+    <Footer/>
     
   </div>
 </template>
@@ -19,6 +20,7 @@ import Navbar from './components/Navbar.vue'
 import WeWillCallYou from './components/WeWillCallYou.vue'
 import ActionCards from "./components/ActionCards.vue"
 import PreferredPorducts from './components/PreferredPorducts.vue'
+import Footer from './components/Footer.vue'
 
 
 export default defineComponent({
@@ -30,6 +32,7 @@ export default defineComponent({
     ActionCards,
     PreferredPorducts,
     News,
+    Footer,
    
     
   }

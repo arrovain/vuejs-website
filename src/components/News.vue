@@ -102,5 +102,18 @@ h2 {
   margin-top: 0.5rem;
 }
 
+h3 {
+  margin: 0.5rem 0;
+}
+
+.read-more {
+  background-color: #ccc;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
 
 </style>
