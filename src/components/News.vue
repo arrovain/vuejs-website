@@ -93,7 +93,13 @@ h2 {
 .news-item img {
   width: 100%;
   height: auto;
-  
+
+}
+
+.news-category, .news-date {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 
