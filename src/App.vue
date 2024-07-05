@@ -6,12 +6,14 @@
 
     <WeWillCallYou/>
     <PreferredPorducts/>
+    <News/>
     
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import News from './components/News.vue'
 import Slider from './components/Slider.vue'
 import Navbar from './components/Navbar.vue'
 import WeWillCallYou from './components/WeWillCallYou.vue'
@@ -27,6 +29,7 @@ export default defineComponent({
     WeWillCallYou,
     ActionCards,
     PreferredPorducts,
+    News,
    
     
   }
