@@ -2,6 +2,7 @@
   <div id="app">
    
     <Navbar/>
+    <HeroSection/>
     <ActionCards/>
 
     <WeWillCallYou/>
@@ -22,6 +23,7 @@ import WeWillCallYou from './components/WeWillCallYou.vue'
 import ActionCards from "./components/ActionCards.vue"
 import PreferredPorducts from './components/PreferredPorducts.vue'
 import Footer from './components/Footer.vue'
+import HeroSection from './components/HeroSection.vue'
 
 
 export default defineComponent({
@@ -29,6 +31,7 @@ export default defineComponent({
   components: {
     Slider,
     Navbar,
+    HeroSection,
     WeWillCallYou,
     ActionCards,
     PreferredPorducts,
@@ -39,3 +42,14 @@ export default defineComponent({
   }
 })
 </script>
+
+<style>
+
+body {
+  
+  margin: 0;
+  padding: 0;
+}
+
+
+</style>

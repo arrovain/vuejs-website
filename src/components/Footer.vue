@@ -49,6 +49,9 @@ export default {
 </script>
 
 <style scoped>
+
+
+
 .footer {
   background-color: #f5f5f5;
   padding: 20px 0;
