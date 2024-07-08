@@ -36,9 +36,11 @@ Melikgazi/Kayseri</li>
       </div>
       <div class="footer-bottom">
         <img src="../assets/logo.jpg" alt="logo" class="footer-logo">
+        <img src="../assets/eterna.jpg" alt="eterna" class="footer-logo">
         <p>TERCAN SİGORTA © 2024 | Tüm hakları saklıdır.</p>
       </div>
     </div>
+
   </footer>
 </template>
 
@@ -53,7 +55,8 @@ export default {
 
 
 .footer {
-  background-color: #f5f5f5;
+  color: white;
+  background-color: #2d2d2d;
   padding: 20px 0;
   border-top: 1px solid #ccc;
 }
@@ -102,11 +105,12 @@ export default {
 }
 
 .social-media ul li a {
-  color: #333;
+  color: white;
   font-size: 20px;
 }
 
 .footer-bottom {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,6 +119,7 @@ export default {
 }
 
 .footer-logo {
+ 
   max-height: 60px;
 }
 
