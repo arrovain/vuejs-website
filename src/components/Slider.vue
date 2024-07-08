@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="slider-content">
-      <transition-group name="slide">
+      <transition-group name="slide" tag="div" class="logo-slider">
         <div v-for="(logo, index) in visibleLogos" :key="logo.id" class="logo-container">
           <img :src="logo.src" :alt="logo.name" class="logo-image">
         </div>
@@ -37,7 +37,6 @@ export default {
         { id: 13, name: 'koru', src: './src/assets/koru.jpg' },
         { id: 14, name: 'seker', src: './src/assets/seker.png' },
         { id: 15, name: 'orient', src: './src/assets/orient.png' },
-       
       ],
       visibleCount: 5
     }
@@ -91,7 +90,7 @@ h2 {
 }
 
 .control-button {
-  background-color: #ccc;
+  background-color: #3f51b5;
   border: none;
   color: #fff;
   font-size: 18px;
@@ -101,19 +100,22 @@ h2 {
 }
 
 .slider-content {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.logo-slider {
   display: flex;
-  justify-content: space-between;
-  padding: 0 20px;
+  transition: transform 0.5s ease;
 }
 
 .logo-container {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 10px;
-  width: 18%;
+  flex: 0 0 20%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 
 .logo-image {
@@ -123,14 +125,8 @@ h2 {
 }
 
 .slide-enter-active, .slide-leave-active {
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 
-.slide-enter-from {
-  transform: translateX(100%);
-}
 
-.slide-leave-to {
-  transform: translateX(-100%);
-}
 </style>

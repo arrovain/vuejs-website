@@ -15,6 +15,10 @@
 </template>
 
 <script lang="ts">
+
+
+
+import Apply from "../components/Apply"
 import { defineComponent } from 'vue'
 import News from './components/News.vue'
 import Slider from './components/Slider.vue'
@@ -24,6 +28,7 @@ import ActionCards from "./components/ActionCards.vue"
 import PreferredPorducts from './components/PreferredPorducts.vue'
 import Footer from './components/Footer.vue'
 import HeroSection from './components/HeroSection.vue'
+
 
 
 export default defineComponent({
@@ -37,6 +42,8 @@ export default defineComponent({
     PreferredPorducts,
     News,
     Footer,
+    Apply,
+
    
     
   }

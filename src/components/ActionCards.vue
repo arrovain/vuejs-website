@@ -23,7 +23,6 @@
         <button class="card-btn red">Kaydol</button>
       </div>
     </div>
-    
 </template>
 
 
