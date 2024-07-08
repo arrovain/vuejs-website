@@ -3,10 +3,17 @@
     <div class="top-bar">
       <div class="container d-flex justify-content-between align-items-center">
         <div class="contact-info">
-          <span><i class="fa fa-envelope"></i> info@hercan.com.tr</span>
-          <span><i class="fa fa-phone"></i> +90 (352) 231 43 43</span>
+          <button class="btn btn-sm btn-danger">Hemen Başvur!</button>
+          
         </div>
-        <button class="btn btn-sm btn-danger">Hemen Başvur!</button>
+      
+          <div class="gpp">
+            <span>
+            <i class="fa fa-envelope"></i> info@hercan.com.tr</span>
+          <span><i class="fa fa-phone"></i> +90 (352) 231 43 43</span>
+          </div>
+        
+       
       </div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -39,6 +46,12 @@ export default {
 </script>
 
 <style scoped>
+
+
+.gpp{
+  display: flex;
+  gap: 2rem;
+}
 .imgg{
   width: 20px;
   height: 20px;
