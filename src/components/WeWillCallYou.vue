@@ -3,7 +3,7 @@
         <div class="banner-content">
       
     <div class="message">
-        <h2>Sigorta güvencenizle huzur ve güven içinde geleceğe adım atın. Tercan Sigorta Aracılık Hizmetleri ile her zaman yanınızdayız.</h2>
+        <h2>Tercan Sigorta Aracılık Hizmetleri: Güvenirlik ve Profesyonellik ile 7 Gün 24 Saat Sizin Yanınızdayız</h2>
        
       </div>
     </div>

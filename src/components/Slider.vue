@@ -23,13 +23,13 @@ export default {
     return {
       currentIndex: 0,
       logos: [
-        { id: 1, name: 'emaa sigorta', src: 'https://www.ajans24sigorta.com.tr/upload/logolar/300/acnturk-logo-8b9e61814ef647f8c5ae98e10850f06f-ffb1cd77e58f1730c4dddd3201a7577c.png' },
+        { id: 1, name: 'emaa sigorta', src: '' },
         { id: 2, name: 'aveon', src: '' },
         { id: 4, name: 'AcnTURK', src: '' },
         { id: 5, name: 'sa', src: '' },
         { id: 6, name: 'COasdRPUS', src: '' },
         { id: 7, name: 'COasdRPUS', src: '' },
-        // Add more logos if needed
+       
       ],
       visibleCount: 5
     }

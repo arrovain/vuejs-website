@@ -21,12 +21,7 @@
       <div class="form-slider-container">
         <div class="form-section">
           <h2>TRAFİK SİGORTASI TEKLİF AL</h2>
-          <i class="bi bi-arrows-angle-contract"></i>
-
-          <i class="bi bi-arrows-angle-contract"></i>
-
-          <i class="bi bi-arrows-angle-contract"></i>
-
+         
           
           <form @submit.prevent="submitForm">
             <div class="form-group" v-for="field in formFields" :key="field.name">
