@@ -24,12 +24,12 @@
         <div > <img class="imggggg" src="../assets/logo.jpg" alt=""></div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="#">ANASAYFA</a></li>
-            <li  class="nav-item"><a class="nav-link" href="#">KURUMSAL</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">ÜRÜNLER</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">ŞUBELİK BAŞVURUSU</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">KARİYER</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">İLETİŞİM</a></li>
+            <li class="nav-item"><router-link class="nav-link" to="/">ANASAYFA</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/kurumsal">KURUMSAL</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/urunler">ÜRÜNLER</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/subelik-basvurusu">ŞUBELİK BAŞVURUSU</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/kariyer">KARİYER</router-link></li>
+            <li class="nav-item"><router-link class="nav-link" to="/iletisim">İLETİŞİM</router-link></li>
           </ul>
         </div>
       </div>
@@ -38,6 +38,7 @@
 </template>
 
 <script>
+
 export default {
   name: 'Header'
 };

@@ -17,7 +17,7 @@ Melikgazi/Kayseri</li>
             <li>Trafik Sigortası</li>
             <li>Seyahat Sigortası</li>
             <li>Dask Sigortası</li>
-            <li>İşyeri Sigortası</li>W
+            <li>İşyeri Sigortası</li>
             <li>Kasko Sigortası</li>
             <li>Tamamlayıcı Sağlık Sigortası</li>
             <li>Konut Sigortası</li>

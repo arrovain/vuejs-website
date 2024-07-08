@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-   
+  
     <Navbar/>
+  
+
       
     
     <HeroSection/>
@@ -21,17 +23,10 @@
 
 import { createRouter, createWebHistory } from 'vue-router'
 
-const routes = [
-
-  {
-    path: '/Institutional',
-    name: 'Institutional',
-  
-  },
-]
 
 
 import { defineComponent } from 'vue'
+
 import News from './components/News.vue'
 import Slider from './components/Slider.vue'
 import Navbar from './components/Navbar.vue'
@@ -54,6 +49,7 @@ export default defineComponent({
     PreferredPorducts,
     News,
     Footer,
+    
     
 
    
