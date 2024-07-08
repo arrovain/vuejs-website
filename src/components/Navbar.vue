@@ -18,16 +18,13 @@
     </div>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+       
+        
+        <div > <img class="imggggg" src="../assets/logo.jpg" alt=""></div>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="#">ANASAYFA</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">KURUMSAL</a></li>
+            <li class="nav-item"><a class="nav-link" href="/">KURUMSAL</a></li>
             <li class="nav-item"><a class="nav-link" href="#">ÜRÜNLER</a></li>
             <li class="nav-item"><a class="nav-link" href="#">ŞUBELİK BAŞVURUSU</a></li>
             <li class="nav-item"><a class="nav-link" href="#">KARİYER</a></li>
@@ -52,9 +49,10 @@ export default {
   display: flex;
   gap: 2rem;
 }
-.imgg{
-  width: 20px;
-  height: 20px;
+.imggggg{
+  max-height: 60px;
+
+
 }
 
 .top-bar {
