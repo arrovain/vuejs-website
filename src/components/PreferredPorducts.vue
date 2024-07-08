@@ -30,7 +30,7 @@ export default {
     data() {
         return {
             products: [
-        { name: 'Kasko', color: '#3366cc', icon: 'fa fa-car'},
+        { name: 'Kasko', color: '#3366cc', icon: 'fa fa-car' },
         { name: 'Trafik', color: '#888888', icon: 'fa fa-truck' },
         { name: 'Konut', color: '#28a745', icon: 'fa-solid fa-building' },
         { name: 'Sağlık', color: '#a4c639', icon: 'fas fa-heart' },
@@ -48,16 +48,19 @@ export default {
 }
 </script>
 
-<style>
+
+<style scoped>
 .preferred-products {
   text-align: center;
   padding: 20px;
   background-color: #f5f5f5;
 }
+
 h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
+
 .product-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -75,14 +78,51 @@ h2 {
   padding: 20px;
   aspect-ratio: 1;
   text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
 }
 
 .product-item i {
   font-size: 36px;
   margin-bottom: 10px;
+  transition: all 0.3s ease;
 }
 
 .product-item span {
   font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.product-item::after {
+  content: 'Detaylar';
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: #3366cc;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.product-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-item:hover i {
+  transform: translateY(-10px);
+}
+
+.product-item:hover span {
+  opacity: 0;
+}
+
+.product-item:hover::after {
+  bottom: 20px;
 }
 </style>
