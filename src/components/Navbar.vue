@@ -98,13 +98,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+ 
 }
 
-.imgg{
-  color: red;
-  max-height: 77px;
-  max-width: 77px;
-}
+
 
 .contact-info span {
   margin-right: 20px;
@@ -199,5 +196,9 @@ nav a {
   border-radius: 20px;
 }
 
+.imgg{
+  width: 200px;
+  height: 77px;
+}
 
 </style>
