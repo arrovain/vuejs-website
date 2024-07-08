@@ -19,7 +19,7 @@
       </div>
       <div class="card">
         <h3>E-POSTA LISTESI</h3>
-        <p>Kampanya ve yeniliklerimizden haberdar olmak ister misiniz...</p>
+        <p>Yeniliklerimizden haberdar olmak ister misiniz?</p>
         <button class="card-btn red">Kaydol</button>
       </div>
     </div>

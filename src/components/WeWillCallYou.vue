@@ -41,8 +41,11 @@ export default {
 
 <style scoped>
 
+
+
 .insurance-banner {
     background-color: #f5f5f5;
+    margin-top: 50px;
 
     padding: 20px 330px;
     display: flex;

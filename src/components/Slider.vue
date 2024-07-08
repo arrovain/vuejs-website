@@ -23,12 +23,12 @@ export default {
     return {
       currentIndex: 0,
       logos: [
-        { id: 1, name: 'emaa sigorta', src: '' },
-        { id: 2, name: 'aveon', src: '' },
-        { id: 4, name: 'AcnTURK', src: '' },
-        { id: 5, name: 'sa', src: '' },
-        { id: 6, name: 'COasdRPUS', src: '' },
-        { id: 7, name: 'COasdRPUS', src: '' },
+        { id: 1, name: 'quick sigorta', src: './src/assets/quick.jpg' },
+        { id: 2, name: 'aveon', src: './src/assets/aveon.png' },
+        { id: 4, name: 'AcnTURK', src: './src/assets/aveon.png' },
+        { id: 5, name: 'sa', src: './src/assets/aveon.png' },
+        { id: 6, name: 'COasdRPUS', src: './src/assets/aveon.png' },
+        { id: 7, name: 'COasdRPUS', src: './src/assets/aveon.png' },
        
       ],
       visibleCount: 5

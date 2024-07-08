@@ -9,8 +9,8 @@
       
           <div class="gpp">
             <span>
-            <i class="fa fa-envelope"></i> info@hercan.com.tr</span>
-          <span><i class="fa fa-phone"></i> +90 (352) 231 43 43</span>
+            <i class="fa fa-envelope"></i> info@tercansigorta.net</span>
+          <span><i class="fa fa-phone"></i> 0 505 112 78 443</span>
           </div>
         
        
