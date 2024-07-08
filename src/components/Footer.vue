@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <div class="footer-content">
+      <div class="footer-contentt">
         <div class="contact-info">
           <h3>İLETİŞİM BİLGİLERİMİZ</h3>
           <ul>
@@ -17,7 +17,7 @@ Melikgazi/Kayseri</li>
             <li>Trafik Sigortası</li>
             <li>Seyahat Sigortası</li>
             <li>Dask Sigortası</li>
-            <li>İşyeri Sigortası</li>
+            <li>İşyeri Sigortası</li>W
             <li>Kasko Sigortası</li>
             <li>Tamamlayıcı Sağlık Sigortası</li>
             <li>Konut Sigortası</li>
@@ -55,6 +55,8 @@ export default {
 
 
 .footer {
+  display: flex;
+  
   color: white;
   background-color: #2d2d2d;
   padding: 20px 0;
@@ -63,14 +65,17 @@ export default {
 
 .container {
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  
+ 
+}
+.branches{
+  margin-left: 99px;
 }
 
-.footer-content {
+.footer-contentt {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+
   margin-bottom: 20px;
 }
 
@@ -101,11 +106,13 @@ export default {
 
 .social-media ul {
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  margin-left: 99px;
 }
 
 .social-media ul li a {
   color: white;
+  
   font-size: 20px;
 }
 

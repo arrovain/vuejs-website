@@ -2,6 +2,8 @@
   <div id="app">
    
     <Navbar/>
+      
+    
     <HeroSection/>
     <ActionCards/>
 
@@ -17,6 +19,16 @@
 <script lang="ts">
 
 
+import { createRouter, createWebHistory } from 'vue-router'
+
+const routes = [
+
+  {
+    path: '/Institutional',
+    name: 'Institutional',
+  
+  },
+]
 
 
 import { defineComponent } from 'vue'

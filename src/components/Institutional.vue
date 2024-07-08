@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'Kurumsal'
+  name: 'Institutional'
 }
 </script>
 
