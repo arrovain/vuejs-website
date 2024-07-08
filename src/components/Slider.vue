@@ -31,13 +31,13 @@ export default {
         { id: 7, name: 'atlas', src: './src/assets/atlas.png' },
         { id: 8, name: 'arex', src: './src/assets/arex.png' },
         { id: 9, name: 'unico', src: './src/assets/unico.png' },
-        { id: 10, name: 'anadolu', src: './src/assets/aveon.png' },
-        { id: 11, name: 'türkiye', src: './src/assets/aveon.png' },
-        { id: 12, name: 'hepiyi', src: './src/assets/aveon.png' },
-        { id: 13, name: 'mapfre', src: './src/assets/aveon.png' },
-        { id: 14, name: 'koru', src: './src/assets/aveon.png' },
-        { id: 15, name: 'seker', src: './src/assets/aveon.png' },
-        { id: 16, name: 'orient', src: './src/assets/aveon.png' },
+        { id: 10, name: 'anadolu', src: './src/assets/anadolu.png' },
+        { id: 11, name: 'türkiye', src: './src/assets/türkiye.png' },
+        { id: 12, name: 'hepiyi', src: './src/assets/hep.png' },
+       
+        { id: 13, name: 'koru', src: './src/assets/koru.jpg' },
+        { id: 14, name: 'seker', src: './src/assets/seker.png' },
+        { id: 15, name: 'orient', src: './src/assets/orient.png' },
        
       ],
       visibleCount: 5
