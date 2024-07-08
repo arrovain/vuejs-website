@@ -1,18 +1,18 @@
 <template>
 
 <section class="haberler">
-    <h2> Sektorel Haberler ve Faydalı Bilgiler</h2>
+    <h2 class="h22"> Sektorel Haberler ve Faydalı Bilgiler</h2>
     <div class="wave-divider"></div>
     <p class="description">
       Tercan Sigorta ile Güncel Sigorta Haberleri ve Bilgilendirmeler: Güvenliğiniz İçin En Son Gelişmeleri Takip Edin.
     </p>
-    <div class="news-grid">
+    <div class="h22 news-grid">
       <div v-for="(article, index) in newsArticles" :key="index" class="news-item">
-        <img :src="article.image" :alt="article.title">
+        <img class="" :src="article.image" :alt="article.title">
         <div class="news-category">{{ article.category }}</div>
         <div class="news-date">{{ article.date }}</div>
-        <h3>{{ article.title }}</h3>
-        <p>{{ article.summary }}</p>
+        <h3 class="">{{ article.title }}</h3>
+        <p class="summary">{{ article.summary }}</p>
         <button class="read-more">Devamını oku...</button>
       </div>
     </div>
@@ -32,7 +32,7 @@ export default {
                     category: 'HABERLER',
                     date: 'KASIM, 05, 2015',
                     title: '2021 de sigorta primi yükselecek',
-                    summary: 'Türkiye sigorta bişrliği tsb başkanı atilla benli salgınla geçen'
+                    summary: 'Türkiye Sigorta Birliği (TSB) Başkanı Atilla Benli; “Salgınla geçen bir yıldan sonra 2021 yılında vatandaşların sigortaya bakış açılarının hem salgın hem de salgın döneminde meydana…'
                 },
                 {
           image: 'https://hercan.com.tr/media/k2/items/cache/f4b6dca0e2911082f0eb6e1df1a0e11d_L.jpg',
@@ -58,18 +58,23 @@ export default {
 
 
 <style>
+.summary{
+  color: black;
+}
 
 .haberler {
     text-align: center;
     padding: 2rem;
 }
 
-h2{
+
+
+.h22{
+  
   color: red;
-  font-size: 2rem;
+  padding: 2rem;
   margin-bottom: 0.5rem;
 }
-
 .wave-divider {
   height: 10px;
   background: url('') repeat-x;

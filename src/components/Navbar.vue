@@ -35,6 +35,7 @@
         </div>
         <div class="slider-section">
           <img src="../assets/trafic.jpg" alt="Happy Family">
+          <img src="../assets/slider.jpg" alt="Happy Family">
           <div class="overlay-text">Güvenle İzle Mutlu Bir Gelecek</div>
           <div class="slider-controls">
             <button @click="prevSlide" class="slider-btn prev">&lt;</button>
