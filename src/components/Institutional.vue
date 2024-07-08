@@ -1,10 +1,8 @@
 <script>
 export default {
-    name: Inst,
+  name: 'Kurumsal'
 }
-
 </script>
-
 
 <template>
     

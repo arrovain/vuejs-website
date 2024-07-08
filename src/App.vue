@@ -18,7 +18,7 @@
 
 
 
-import Apply from "../components/Apply"
+
 import { defineComponent } from 'vue'
 import News from './components/News.vue'
 import Slider from './components/Slider.vue'
@@ -42,7 +42,7 @@ export default defineComponent({
     PreferredPorducts,
     News,
     Footer,
-    Apply,
+    
 
    
     

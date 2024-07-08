@@ -1,5 +1,6 @@
 <template>
   <header>
+    
     <div class="top-bar">
       <div class="container d-flex justify-content-between align-items-center">
         <div class="contact-info">
@@ -24,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="#">ANASAYFA</a></li>
-            <li class="nav-item"><a class="nav-link" href="/">KURUMSAL</a></li>
+            <router-link to="Institution" class="nav-item"><a class="nav-link" href="/">KURUMSAL</a></router-link>
             <li class="nav-item"><a class="nav-link" href="#">ÜRÜNLER</a></li>
             <li class="nav-item"><a class="nav-link" href="#">ŞUBELİK BAŞVURUSU</a></li>
             <li class="nav-item"><a class="nav-link" href="#">KARİYER</a></li>
