@@ -11,7 +11,7 @@
             </div>
           </div>
           <div class="col-lg-6 image-section">
-            <img src="" alt="Insurance Image">
+            <img src="../assets/slider.jpg" alt="Insurance Image">
           </div>
         </div>
       </div>
@@ -25,8 +25,11 @@
   </script>
   
   <style scoped>
+   
+
+
   .hero-section {
-    background-color: #c0392b;
+    background-color: #da2f1c;
     color: white;
     padding: 50px 0;
   }
@@ -50,7 +53,7 @@
   }
   
   .image-section img {
-    width: 100%;
+    width: 600px;
   }
   </style>
   
