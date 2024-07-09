@@ -23,4 +23,17 @@ class NewsController extends Controller
         return News::find($id);
     }
 
+    public function update(Request $request, $id)
+    {
+        $news = News::findOrFail($id);
+        $news->update($request->all());
+        return response()->json($news, 200);
+    }
+
+    public function delete($id)
+    {
+        News::findOrFail($id)->delete();
+        return response()->json(null, 204);
+    }
+
 }
